@@ -1,70 +1,51 @@
-# Getting Started with Create React App
+# React Slider
+
+A simple slider using [react-responsive-carousel]
+
+____________________________________________________________________________________
+## Carousel Methods
+Managing the Carousel behavior is easy in React, The React Responsive Carousel plugin offers tons of features to customize the carousel.
+showArrows: Default value set to true, displays previous and next arrows.
+
+[showStatus]: Default value set to true, displays current item’s index.
+
+[showIndicators]: Default value set to true, displays small dots below the with links to change the items in the Carousel.
+
+[showThumbs]: Default value set to true, shows images for the thumbnails.
+
+[thumbWidth]: Default value is undefined, optionally specify pixel width of a thumbnail to avoid calculating values.
+
+[infiniteLoop]: Adds infinite loop in carousel, default value set to false.
+
+[selectedItem]: Declares the starting selected item.
+
+[axis]: Converts the orientation horizontal or vertical, default value is horizontal.
+
+[onChange]: Triggered when updating the positions.
+
+[onClickItem]: Triggered when an item is clicked.
+
+[onClickThumb]: Triggered when a thumbnail is clicked.
+
+[stopOnHover]: Default value set to true, Stops auto play when mouse is over the carousel.
+
+[interval]: Default value set to 3000, Adds time interval in auto play.
+
+[transitionTime]: Default value set to 350, Time interval in milliseconds between slide transition.
+
+[swipeable]: Default is set to true, allows swiping gestures.
+
+[dynamicHeight]: Default is set to false, manages the carousel height if needed. It does not work with vertical axis.
+
+[centerMode]: Default is set to false, allows centered view with partial previous and next slides. It only works with horizontal axis.
+
+[labels]: Optionally specify labels to be added to controls.
+
+[onSwipeStart]: Triggered when a swiping gesture has initialized.
+
+[onSwipeEnd]: Triggered when a swiping gesture has completed.
+
+[onSwipeMove]: Triggered when a swiping gesture is happening.
+
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
